@@ -66,5 +66,12 @@ failed for me, so I installed the needed ones myself.
 pip install --user pycollada
 pip install --user scipy
 pip install --user networkx
+
+pip install --user opencv-python 
+pip install --user matplotlib -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install --user yaml  -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install --user pyyaml  -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install --user rospkg  -i https://pypi.tuna.tsinghua.edu.cn/simple
+
 ```
 

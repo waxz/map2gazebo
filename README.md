@@ -55,19 +55,19 @@ Clone the repo and install ROS dependencies with rosdep.
 
 Install the python dependencies with pip:
 ```
-pip install --user trimesh
-pip install --user numpy
+pip install --user trimesh -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install --user numpy -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 trimesh needs the following soft dependencies to export Collada (.dae) files.
 Theoretically you can install these with `pip install trimesh[soft]` but this
 failed for me, so I installed the needed ones myself.
 ```
-pip install --user pycollada
-pip install --user scipy
-pip install --user networkx
+pip install --user pycollada -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install --user scipy -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install --user networkx -i https://pypi.tuna.tsinghua.edu.cn/simple
 
-pip install --user opencv-python 
+pip install --user opencv-python  -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip install --user matplotlib -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip install --user yaml  -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip install --user pyyaml  -i https://pypi.tuna.tsinghua.edu.cn/simple
